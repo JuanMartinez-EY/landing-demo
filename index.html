@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>ReconNet - EY Venezuela</title>
+</head>
+
+<body>
+    <!-- Sección Hero -->
+    <header>
+        <img src="assets/EY_logo.png" alt="logo-ey">
+        <nav>
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- introducción -->
+    <section id="introduccion">
+        <h1>ReconNet</h1>
+        <p>Moderniza y optimiza tus conciliaciones bancarias y procesos contables</p>
+        <a class="cta" href="#contacto">Solicita más información</a>
+    </section>
+
+    <!-- Carrusel de presentación -->
+    <section id="carrusel">
+        <div class="slider">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="slide-image">
+                        <img src="assets/carrusel1.png" alt="Automatización Eficiente">
+                    </div>
+                    <div class="slide-text">
+                        <h3>Automatización Eficiente</h3>
+                        <p>Nuestra misión es optimizar los procesos contables y financieros de las empresas mediante
+                            soluciones de automatización que se adaptan a sus necesidades específicas.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="slide-image">
+                        <img src="assets/carrusel2.png" alt="Visión Innovadora">
+                    </div>
+                    <div class="slide-text">
+                        <h3>Visión Innovadora</h3>
+                        <p>Aspiramos a ser líderes en la automatización de procesos en Venezuela, facilitando a las
+                            empresas la modernización de sus operaciones financieras con tecnología de vanguardia.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="slide-image">
+                        <img src="assets/carrusel3.png" alt="Compromiso con la Seguridad">
+                    </div>
+                    <div class="slide-text">
+                        <h3>Compromiso con la Seguridad</h3>
+                        <p>Nos comprometemos a brindar un entorno seguro para la gestión de datos, asegurando el
+                            cumplimiento normativo y la protección de la información de nuestros clientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Botones de navegación -->
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </section>
+
+    <!-- Funcionalidades/Servicios -->
+    <section id="servicios">
+        <h2>Servicios Integrales de Automatización</h2>
+        <p>Soluciones adaptadas para cada necesidad financiera.</p>
+        <div class="cards">
+            <div class="card">
+                <h3>Conciliaciones Automatizadas</h3>
+                <p>Integra y automatiza el proceso de conciliación bancaria para reducir errores y tiempos.</p>
+            </div>
+            <div class="card">
+                <h3>Digitalización e IA</h3>
+                <p>Digitaliza facturas y utiliza inteligencia artificial para el análisis financiero.</p>
+            </div>
+            <div class="card">
+                <h3>Seguridad y Cumplimiento</h3>
+                <p>Optimiza procesos internos con módulos adaptables y cumple con normativas de seguridad.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section id="beneficios">
+        <h2>Beneficios Clave de Nuestra Solución</h2>
+        <p>Aprovecha la automatización para maximizar tu eficiencia</p>
+        <ul>
+            <li>Eficiencia operativa con procesos automatizados.</li>
+            <li>Ahorro en costos y recursos.</li>
+            <li>Garantía en seguridad y cumplimiento normativo.</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>¡Contáctanos!</h2>
+        <form action="mailto:juan.c.martinez@ve.ey.com" method="POST" enctype="text/plain">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="correo" placeholder="Tu correo electrónico" required>
+            <textarea name="mensaje" rows="5" placeholder="Cuéntanos en qué podemos ayudarte" required></textarea>
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
